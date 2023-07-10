@@ -1,4 +1,4 @@
-#emby分流list
+#emby服务器分流
 DOMAIN-SUFFIX,tank66.top  #tank服
 DOMAIN-SUFFIX,emby2.misakaf.org  #misakaf服
 DOMAIN-SUFFIX,misty.ltd  #misty服
