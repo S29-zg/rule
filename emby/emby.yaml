@@ -1,9 +1,9 @@
 #用于clash
 payload:
-  - DOMAIN-KEYWORD,tank66.top  
-  - DOMAIN-KEYWORD,emby2.misakaf.org  
-  - DOMAIN-KEYWORD,misty.ltd  
-  - DOMAIN-KEYWORD,cf.zi0.icu 
-  - DOMAIN-KEYWORD,9wfree.emby.eu.org 
-  - DOMAIN-KEYWORD,789.123456.al 
-  - DOMAIN-KEYWORD,fuck.nvidia.rip 
+  - DOMAIN-SUFFIX,tank66.top  
+  - DOMAIN-SUFFIX,emby2.misakaf.org  
+  - DOMAIN-SUFFIX,misty.ltd  
+  - DOMAIN-SUFFIX,cf.zi0.icu 
+  - DOMAIN-SUFFIX,9wfree.emby.eu.org 
+  - DOMAIN-SUFFIX,789.123456.al 
+  - DOMAIN-SUFFIX,fuck.nvidia.rip 
