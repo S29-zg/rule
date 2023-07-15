@@ -1,8 +1,15 @@
 #emby服务器分流
-DOMAIN-SUFFIX,tank66.top  #tank服
-DOMAIN-SUFFIX,emby2.misakaf.org  #misakaf服
-DOMAIN-SUFFIX,misty.ltd  #misty服
-DOMAIN-SUFFIX,cf.zi0.icu #鑫澪服
-DOMAIN-SUFFIX,9wfree.emby.eu.org #星光服
-DOMAIN-SUFFIX,789.123456.al #树状图
-DOMAIN-SUFFIX,fuck.nvidia.rip #hxd动漫服
+#tank服
+DOMAIN-SUFFIX,tank66.top  
+#misakaf服
+DOMAIN-SUFFIX,emby2.misakaf.org  
+#misty服
+DOMAIN-SUFFIX,misty.ltd  
+#鑫澪服
+DOMAIN-SUFFIX,cf.zi0.icu 
+ #星光服
+DOMAIN-SUFFIX,9wfree.emby.eu.org
+#树状图
+DOMAIN-SUFFIX,789.123456.al 
+#hxd动漫服
+DOMAIN-SUFFIX,fuck.nvidia.rip 
