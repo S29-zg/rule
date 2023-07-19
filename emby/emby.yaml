@@ -7,4 +7,5 @@ payload:
   - DOMAIN-SUFFIX,9wfree.emby.eu.org 
   - DOMAIN-SUFFIX,789.123456.al 
   - DOMAIN-SUFFIX,fuck.nvidia.rip 
-  - IP-CIDR,140.238.14.126/16  
+  - IP-CIDR,140.238.14.126/16 
+  - DOMAIN-SUFFIX,pilipili.emby77.org
