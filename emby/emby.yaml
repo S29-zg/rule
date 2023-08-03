@@ -11,4 +11,6 @@ payload:
   - DOMAIN-SUFFIX,fuck.nvidia.rip 
   - IP-CIDR,140.238.14.126/16 
   - DOMAIN-SUFFIX,pilipili.emby77.org  
-  - DOMAIN-SUFFIX,cs.tank88.top
+  - DOMAIN-SUFFIX,cs.tank88.top  
+  - DOMAIN-SUFFIX,pilipili-cf.emby77.org  
+  - DOMAIN-SUFFIX,pilipili.emby77.org
