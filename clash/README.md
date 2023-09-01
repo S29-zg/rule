@@ -1,2 +1,1 @@
-emby.yaml，请使用 behavior: "classical"  
-GithHub proxy加速-https://ghproxy.com/https://raw.githubusercontent.com/S29-zg/rule/main/clash/emby.yaml
+用于clash的分流规则
