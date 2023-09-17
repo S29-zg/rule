@@ -6,7 +6,7 @@
 
  [rewrite_local]
 
- https://api.revenuecat.com/v1/(receipts|subscribers)/* url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/APTV.js
+ https://api.revenuecat.com/v1/(receipts|subscribers)/* url script-response-body https://raw.githubusercontent.com/S29-zg/rule/main/script/APTV/APTV.js
 
  [mitm]
 
