@@ -1,0 +1,1 @@
+加速地址：https://ghproxy.com/https://raw.githubusercontent.com/S29-zg/rule/main/shadowrocket/zuiyou/zuiyou.list
