@@ -3,3 +3,6 @@ DOMAIN,bd-video.izuiyou.com
 DOMAIN,jsy.izuiyou.com
 DOMAIN,txzuiyou.izuiyou.com
 DOMAIN-SUFFIX,izuiyou.com
+
+#合肥轨道
+DOMAIN-SUFFIX,hfgdjt.com
