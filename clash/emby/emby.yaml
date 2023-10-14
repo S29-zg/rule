@@ -12,7 +12,7 @@ payload:
   #鑫澪服
   - DOMAIN-SUFFIX,cf.zi0.icu 
    #星光服
-  - DOMAIN-SUFFIX,9wfree.emby.eu.org 
+  - DOMAIN-KEYWORD,9wfree
   #树状图
   - DOMAIN-SUFFIX,789.123456.al 
   #hxd动漫服
