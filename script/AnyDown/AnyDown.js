@@ -2,6 +2,13 @@
 
 项目名称：AnyDown
 脚本作者：chxm1023
+**************************************
+
+[rewrite_local]
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/S29-zg/rule/main/script/AnyDown/AnyDown.js
+
+[mitm]
+hostname = buy.itunes.apple.com
 
 *************************************/
 
