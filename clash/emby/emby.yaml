@@ -19,10 +19,8 @@ payload:
   #hxd动漫服
   - DOMAIN-SUFFIX,fuck.nvidia.rip 
   #pilipili
-  - IP-CIDR,140.238.14.126/16 
-  - DOMAIN-SUFFIX,pilipili.emby77.org  
-  - DOMAIN-SUFFIX,pilipili-cf.emby77.org  
-  - DOMAIN-SUFFIX,pilipili.emby77.org  
+  - DOMAIN-KEYWOED,pilipiliultra
+  - DOMAIN,pilipili.mikuu.link 
   #纸片人
   - DOMAIN-SUFFIX,embyplus.org
   #蓝海
