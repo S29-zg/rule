@@ -1,19 +1,43 @@
 /**************************************
-@Name：松鼠ios账号版 签到 积分可以兑换苹果付费应用账号
+@Name：松鼠ios 签到 积分可以兑换苹果付费应用账号
 @Author：Sliverkiss
 @Date：2023-10-10 12:17:56
 
 2023.10.19 新增查询积分余额
 2023.10.20 修复了青龙运行脚本失败的问题
+2023.10.23 更换域名，移除登录接口
 
-网址入口：https://www.huaxiashuyu.com
-
-使用方法：将账号和用户名用#拼接，如账号#密码，填写到hxsy_base，多账号用 & 分隔
-         配合boxjs使用 
-         boxjs地址：https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/Sliverkiss.boxjs.json
+网址入口：https://ios.songshuyouxi.com
 
 脚本兼容：Surge、QuantumultX、Loon、Shadowrocket、Node.js
-只测试过loon、QuantumultX和青龙，其它环境请自行尝试】
+只测试过loon、QuantumultX和青龙，其它环境请自行尝试
+
+*************************
+【 签到脚本使用教程 】:
+*************************
+青龙：
+1.登录后抓包 https://ios.xiezhenge.com/user , 找到 Cookie，填写到sxios_data,多账号用 @ 分割
+2.可选推送：将bark的key填写到bark_key，不填默认使用青龙自带的推送
+Loon: 
+1.复制Cookie脚本到本地
+2.打开小程序->个人中心->登录后刷新，确保拿到完整的Cookie，若提示获取Cookie成功则可以使用该脚本
+3.关闭Cookie脚本
+------------------------------------------
+loon
+------------------------------------------
+[Script]
+cron "10 8 * * *" script-path=sxios.js, timeout=10, tag=松鼠ios
+http-request ^https\:\/\/ios\.songshuyouxi\.com\/user script-path=sxios.js,timeout=10, tag=松鼠ios获取token
+[MITM]
+hostname = ios.songshuyouxi.com
+------------------------------------------
+QuantumultX
+------------------------------------------
+[rewrite_local]
+^https\:\/\/ios\.songshuyouxi\.com\/user url script-request-header sxios.js
+[mitm]
+hostname =ios.songshuyouxi.com
+====================================
 
 ====================================
 ⚠️【免责声明】
@@ -28,8 +52,8 @@
 ******************************************/
 
 // env.js 全局
-const $ = new Env('松鼠ios账号版');
-const ckName = 'sxios_base';
+const $ = new Env('松鼠ios');
+const ckName = 'sxios_data';
 //-------------------- 一般不动变量区域 -------------------------------------
 const Notify = 1; //0为关闭通知,1为打开通知,默认为1
 const notify = $.isNode() ? require('./sendNotify') : '';
@@ -38,7 +62,7 @@ let userCookie = ($.isNode() ? process.env[ckName] : $.getdata(ckName)) || '';
 let userList = [];
 let userIdx = 0;
 let userCount = 0;
-let host = 'ios.xiezhenge.com';
+let host = 'ios.songshuyouxi.com';
 //调试
 $.is_debug = ($.isNode() ? process.env.IS_DEDUG : $.getdata('is_debug')) || 'false';
 // 为通知准备的空数组
@@ -52,14 +76,12 @@ async function main() {
     console.log('\n================== 任务 ==================\n');
     let taskall = [];
     for (let user of userList) {
+        //ck未过期，开始执行任务
+        DoubleLog(`🔷账号${user.index} >> Start work`);
+        taskall.push(await user.nonce());
+        await $.wait(user.getRandomTime());
         if (user.ckStatus) {
-            //ck未过期，开始执行任务
-            DoubleLog(`🔷账号${user.index} >> Start work`);
             console.log(`随机延迟${user.getRandomTime()}ms`);
-            taskall.push(await user.login());
-            await $.wait(user.getRandomTime()); //延迟  1秒  可充分利用 $.环境函数
-            taskall.push(await user.nonce());
-            await $.wait(user.getRandomTime());
             taskall.push(await user.signin());
             await $.wait(user.getRandomTime());
             taskall.push(await user.point());
@@ -75,9 +97,7 @@ async function main() {
 class UserInfo {
     constructor(str) {
         this.index = ++userIdx;
-        this.ckInfo = str.split('#');
-        this.username = this.ckInfo[0];
-        this.pwd = this.ckInfo[1];
+        this.ck = str;
         this.ckStatus = true;
         this.headers = {
             'User-Agent': 'StormSniffer-Extension/2254 CFNetwork/1327.0.4 Darwin/21.2.0',
@@ -87,43 +107,6 @@ class UserInfo {
     }
     getRandomTime() {
         return randomInt(5000, 7000);
-    }
-    //签到函数
-    async login() {
-        try {
-            const options = {
-                //签到任务调用签到接口
-                url: `https://${host}/wp-admin/admin-ajax.php`,
-                //请求头, 所有接口通用
-                headers: {
-                    Host: 'ios.xiezhenge.com',
-                    'User-Agent': 'StormSniffer-Extension/2254 CFNetwork/1327.0.4 Darwin/21.2.0',
-                    Cookie: `ripro_notice_cookie=1`,
-                    Referer: 'https://ios.xiezhenge.com/user',
-                    'Sec-Fetch-Site': ' same-origin',
-                    'X-Requested-With': 'XMLHttpRequest',
-                    'Sec-Fetch-Mode': 'cors',
-                    'Sec-Fetch-Dest': 'empty',
-                    'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8'
-                },
-                body: `action=user_login&username=${encodeURIComponent(this.username)}&password=${this.pwd}&rememberme=1`
-            };
-            $.post(options, (error, response, data) => {
-                this.ck = response.headers[`set-cookie`];
-                debug(this.ck);
-                let result = JSON.parse(data);
-                // console.log(result);
-                if (result?.status == '1') {
-                    //obj.error是0代表完成
-                    console.log(`✅${result?.msg}`);
-                } else {
-                    console.log(`🔶${result?.msg}`);
-                    //console.log(result);
-                }
-            });
-        } catch (e) {
-            console.log(e);
-        }
     }
     //查询积分
     async nonce() {
