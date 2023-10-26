@@ -1,3 +1,7 @@
+################🏳️‍🌈emby######################
+DOMAIN-SUFFIX,ycxdy.top
+################🏳️‍🌈emby######################
+
 #最右分流
 DOMAIN,bd-video.izuiyou.com
 DOMAIN,jsy.izuiyou.com
@@ -7,6 +11,5 @@ DOMAIN-SUFFIX,izuiyou.com
 #合肥轨道
 DOMAIN-SUFFIX,hfgdjt.com
 
-################🏳️‍🌈emby######################
-DOMAIN-SUFFIX,ycxdy.top
-################🏳️‍🌈emby######################
+#油猴
+DOMAIN-SUFFIX,greasyfork.org
