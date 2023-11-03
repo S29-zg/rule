@@ -1,4 +1,3 @@
-#自用配置
 #port: 7890           # HTTP 代理端口
 #socks-port: 7891     # SOCKS5 代理端口
 #redir-port: 7892     # Linux 和 macOS 的 redir 代理端口
@@ -127,7 +126,7 @@ i: &i {type: http, behavior: ipcidr, interval: 86400}
 ###结束
 
 proxy-providers:
-  Subscribe: {<<: *p, url: https://sub.xeton.dev/sub?target=clash&url="机场节点地址"&list=true&udp=true}
+  Subscribe: {<<: *p, url: https://sub.xeton.dev/sub?target=clash&url=机场地址&list=true&udp=true}
     # 可以使用任意类型的链接替换上面文字，多个链接使用英文符号的竖杠|隔开一起写上即可
     # Sub-Store生成的链接，可以直接替换上述url引号中的部分，具体见Sub-Store教程         
 
@@ -195,64 +194,64 @@ proxy-groups:
 rule-providers:
 
   # 规则修正
-  Direct: {<<: *d, path: ./ruleset/Direct.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.yaml}
+  Direct: {<<: *d, path: ./ruleset/Direct.yaml, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.yaml}
 
   # 局域网
-  Lan: {<<: *c, path: ./ruleset/Lan.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml}
+  Lan: {<<: *c, path: ./ruleset/Lan.yaml, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml}
 
   # 下载服务
-  Download: {<<: *c, path: ./ruleset/Download.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.yaml}
+  Download: {<<: *c, path: ./ruleset/Download.yaml, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.yaml}
 
   #广告拦截
   Anti-AD: {<<: *d, path: ./ruleset/anti-ad-clash.yaml, url: https://anti-ad.net/clash.yaml}
 
   #HTTPDNS拦截
-  HTTPDNS: {<<: *d, path: ./ruleset/HTTPDNS.Block.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/HTTPDNS.Block.yaml}
+  HTTPDNS: {<<: *d, path: ./ruleset/HTTPDNS.Block.yaml, url: https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/HTTPDNS.Block.yaml}
 
   # 国际媒体
-  GlobalMedia: {<<: *c, path: ./ruleset/GlobalMedia.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml}
+  GlobalMedia: {<<: *c, path: ./ruleset/GlobalMedia.yaml, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml}
 
   # 苹果服务
-  Apple: {<<: *c, path: ./ruleset/Apple.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Classical.yaml}
+  Apple: {<<: *c, path: ./ruleset/Apple.yaml, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Classical.yaml}
 
   # 微软服务
-  Microsoft: {<<: *c, path: ./ruleset/Microsoft.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml}
-  Github: {<<: *c, path: ./ruleset/Github.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml}
+  Microsoft: {<<: *c, path: ./ruleset/Microsoft.yaml, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml}
+  Github: {<<: *c, path: ./ruleset/Github.yaml, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml}
 
   # 谷歌服务
-  Youtube: {<<: *c, path: ./ruleset/Youtube.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml}
-  Google: {<<: *c, path: ./ruleset/Google.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml}
+  Youtube: {<<: *c, path: ./ruleset/Youtube.yaml, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml}
+  Google: {<<: *c, path: ./ruleset/Google.yaml, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml}
 
   # 电报消息
-  Telegram: {<<: *c, path: ./ruleset/Telegram.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml}
+  Telegram: {<<: *c, path: ./ruleset/Telegram.yaml, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml}
 
   # 推特消息
-  Twitter: {<<: *c, path: ./ruleset/Twitter.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.yaml}
+  Twitter: {<<: *c, path: ./ruleset/Twitter.yaml, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.yaml}
 
 
   # 游戏平台
-  Game: {<<: *c, path: ./ruleset/Game.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml}
+  Game: {<<: *c, path: ./ruleset/Game.yaml, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml}
 
   # AI平台
-  OpenAI: {<<: *c, path: ./ruleset/OpenAI.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml}
+  OpenAI: {<<: *c, path: ./ruleset/OpenAI.yaml, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml}
 
   # EMBY
-  EMBY: { <<: *c, path: ./ruleset/EMBY.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/S29-zg/rule/main/clash/emby/emby.yaml}
+  EMBY: { <<: *c, path: ./ruleset/EMBY.yaml, url: https://raw.githubusercontent.com/S29-zg/rule/main/clash/emby/emby.yaml}
 
   # Spotify服务
-  Spotify: {<<: *c, path: ./ruleset/Spotify.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml}
+  Spotify: {<<: *c, path: ./ruleset/Spotify.yaml, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml}
 
 # Notion
   Notion: {<<: *c, path: ./ruleset/Notion.yaml, url: https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Notion/Notion.yaml}
 
   # 中国大陆
-  ChinaIP: {<<: *i, path: ./ruleset/ChinaIP.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/soffchen/GeoIP2-CN/release/clash-rule-provider.yml}
+  ChinaIP: {<<: *i, path: ./ruleset/ChinaIP.yaml, url: https://raw.githubusercontent.com/soffchen/GeoIP2-CN/release/clash-rule-provider.yml}
 
   # 代理网站
-  ProxyLite: {<<: *c, path: ./ruleset/ProxyLite.yaml, url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ProxyLite/ProxyLite.yaml}
+  ProxyLite: {<<: *c, path: ./ruleset/ProxyLite.yaml, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ProxyLite/ProxyLite.yaml}
 
 rules:
-  - SCRIPT,quic,REJECT
+  #- SCRIPT,quic,REJECT
   - RULE-SET,Direct,DIRECT
   - RULE-SET,Lan,DIRECT
   - RULE-SET,Download,DIRECT
@@ -278,4 +277,4 @@ rules:
 
 script:
   shortcuts:
-    quic: network == 'udp' and dst_port == 443
+    quic: network == 'udp' and dst_port == 443a
