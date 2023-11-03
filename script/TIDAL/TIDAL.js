@@ -12,11 +12,9 @@
 
     兼容Surge、Loon、Quantumult X等平台
 
-## 脚本描述
-
+## 使用
+[surge shadowrocket] https://raw.githubusercontent.com/S29-zg/rule/main/script/TIDAL/TIDAL.sgmodule
     
-
-
 ## 下载地址
 
     https://apps.apple.com/us/app/tidal-music-hifi-ad-free/id913943275
