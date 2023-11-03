@@ -1,20 +1,20 @@
 /******************************************
  * @name 𝐓𝐢𝐝𝐚𝐥
- * @description 解锁 HiFi Plus 权限
+ * @channel https://t.me/yqc_123
+ * @feedback https://t.me/yqc_777
+ * @version 1.0.1
 ******************************************
-## 更新日志
 
-### 20231103
+## 脚本描述
 
-    修复部分用户无法解锁的问题
+    解锁 HiFi Plus 权限
 
-### 20231031
+## 使用方法
 
-    兼容Surge、Loon、Quantumult X等平台
 
-## 使用
-[surge shadowrocket] https://raw.githubusercontent.com/S29-zg/rule/main/script/TIDAL/TIDAL.sgmodule
-    
+[Surge](https://raw.githubusercontent.com/S29-zg/rule/main/script/TIDAL/TIDAL.sgmodule)
+
+
 ## 下载地址
 
     https://apps.apple.com/us/app/tidal-music-hifi-ad-free/id913943275
