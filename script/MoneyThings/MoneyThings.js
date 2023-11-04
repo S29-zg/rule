@@ -1,11 +1,11 @@
 /*************************************
 
 项目名称：MoneyThings-记账
-下载地址：https://t.cn/A6pg9nPW
+下载地址：https://apps.apple.com/us/app/moneythings-finance-tracker/id1549694221
 项目名称：SalesCat-RevenueCat客户端
-下载地址：https://t.cn/A6pFPFKM
+下载地址：https://apps.apple.com/us/app/salescat-for-revenuecat/id6447881882
 项目名称：MatrixClocca-矩阵时钟
-下载地址：https://t.cn/A6pFhtw1
+下载地址：https://apps.apple.com/us/app/salescat-for-revenuecat/id6447881882
 脚本作者：chxm1023
 
 **************************************
