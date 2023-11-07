@@ -16,3 +16,6 @@ DOMAIN-SUFFIX,greasyfork.org
 
 #HiFiNi-音乐磁场
 DOMAIN-KEYWORD,hifini
+
+#APTV epg地址
+DOMAIN,epg.112114.xyz
