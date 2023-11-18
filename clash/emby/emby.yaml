@@ -38,7 +38,6 @@ payload:
   - DOMAIN-SUFFIX,loseremby.org
   - DOMAIN,cfhd.xmsl.org
   #私服
-  - DOMAIN-SUFFIX,ycxdy.top
   - DOMAIN-SUFFIX,jzq.lol
   #pandatv
   - DOMAIN-SUFFIX,emby.at
