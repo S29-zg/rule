@@ -39,12 +39,12 @@ DOMAIN-SUFFIX,imetyou.top
 #私服
 DOMAIN-SUFFIX,jzq.lol
 #酷安
-IP-CIDR,140.238.6.215/32
-IP-CIDR,94.16.122.183/32
+IP-CIDR,140.238.6.215/32,no-resolve
+IP-CIDR,94.16.122.183/32,no-resolve
 DOMAIN,kuan2.yutron.eu.org
 #鹅城
 DOMAIN-SUFFIX,the98.ltd
-IP-CIDR,23.225.116.79/32
+IP-CIDR,23.225.116.79/32,no-resolve
 #Temby
 DOMAIN,temby.285286.xyz
 #pandatv
