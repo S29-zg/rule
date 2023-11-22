@@ -53,3 +53,6 @@ payload:
   #ACA
   - DOMAIN-SUFFIX,emby.aca.best
   - DOMAIN-SUFFIX,porn.aca.best
+  #MJJ
+  - DOMAIN,direct.mjjemby.org
+  - DOMAIN,cf.mjjemby.org
