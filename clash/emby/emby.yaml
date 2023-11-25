@@ -25,6 +25,8 @@ payload:
   - DOMAIN,misakaf.pilipiliultra.top
   - DOMAIN,misakaf.pilipiliultra.com
   - DOMAIN,src-misakaf.pilipiliultra.com
+  - DOMAIN,src-emby.pilipiliultra.com
+  - DOMAIN,push.pilipiliultra.com
   #纸片人
   - DOMAIN,embyplus.org
   #蓝海
