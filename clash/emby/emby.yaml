@@ -19,10 +19,13 @@ payload:
   #hxd动漫服
   - DOMAIN-SUFFIX,fuck.nvidia.rip 
   #pilipili
-  - DOMAIN-KEYWORD,pilipiliultra
+  - DOMAIN,emby.pilipiliultra.top
+  - DOMAIN,emby.pilipiliultra.com
   - DOMAIN,pilipili.mikuu.link 
+  - DOMAIN,misakaf.pilipiliultra.top
+  - DOMAIN,misakaf.pilipiliultra.com
   #纸片人
-  - DOMAIN-SUFFIX,embyplus.org
+  - DOMAIN,embyplus.org
   #蓝海
   - DOMAIN-SUFFIX,public.emby.ws
   #野兽餐厅
