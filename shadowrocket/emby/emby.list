@@ -18,14 +18,8 @@ DOMAIN-SUFFIX,789.123456.al
 #hxd动漫服
 DOMAIN-SUFFIX,fuck.nvidia.rip 
 #pilipili
-DOMAIN,emby.pilipiliultra.top
-DOMAIN,emby.pilipiliultra.com
+DOMAIN-KEYWORD,pilipiliultra
 DOMAIN,pilipili.mikuu.link 
-DOMAIN,misakaf.pilipiliultra.top
-DOMAIN,misakaf.pilipiliultra.com
-DOMAIN,src-misakaf.pilipiliultra.com
-DOMAIN,src-emby.pilipiliultra.com
-DOMAIN,push.pilipiliultra.com
 #纸片人
 DOMAIN,embyplus.org
 #蓝海
