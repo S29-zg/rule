@@ -1,2 +1,5 @@
 #sub_store
 DOMAIN-SUFFIX,vercel.app
+
+#trakt
+DOMAIN-SUFFIX,trakt.tv
