@@ -3,3 +3,12 @@ DOMAIN-SUFFIX,vercel.app
 
 #trakt
 DOMAIN-SUFFIX,trakt.tv
+
+#script-hub
+DOMAIN-SUFFIX,script.hub
+
+#boxjs
+DOMAIN-KEY,boxjs
+
+#sub_store
+DOMAIN,sub.store
