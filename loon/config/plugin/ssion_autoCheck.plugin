@@ -1,0 +1,17 @@
+#!name=松鼠ios签到
+#!desc=松鼠ios 签到 积分可以兑换苹果付费应用账号
+#!author=@Sliverkiss
+#!icon=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Weibo-32.png
+
+
+
+[Script]
+
+http-request ^https\:\/\/ios\.songshuyouxi\.com\/user script-path=https://raw.githubusercontent.com/S29-zg/rule/main/script/ssios/ssios.js, timeout=300, tag=ssion_Cookie获取
+
+cron "0 9 * * *" script-path=https://raw.githubusercontent.com/S29-zg/rule/main/script/ssios/ssios.js, timeout=100, tag=ssios签到
+
+
+[MITM]
+
+hostname = ios.songshuyouxi.com
