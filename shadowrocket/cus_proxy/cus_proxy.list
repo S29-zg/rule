@@ -8,7 +8,7 @@ DOMAIN-SUFFIX,trakt.tv
 DOMAIN-SUFFIX,script.hub
 
 #boxjs
-DOMAIN-KEY,boxjs
+DOMAIN-KEYWORD,boxjs
 
 #sub_store
 DOMAIN,sub.store
