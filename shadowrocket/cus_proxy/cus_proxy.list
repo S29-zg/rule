@@ -3,3 +3,6 @@ DOMAIN-SUFFIX,vercel.app
 
 #trakt
 DOMAIN-SUFFIX,trakt.tv
+
+#script-hub
+DOMAIN,script.hub
