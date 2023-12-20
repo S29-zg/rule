@@ -5,10 +5,10 @@ DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,trakt.tv
 
 #script-hub
-DOMAIN,script.hub
+DOMAIN-SUFFIX,script.hub
 
 #boxjs
-DOMAIN-KEY,boxjs
+DOMAIN-KEYWORD,boxjs
 
 #sub_store
 DOMAIN,sub.store
