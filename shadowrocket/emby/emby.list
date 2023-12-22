@@ -40,6 +40,7 @@ DOMAIN,cfhd.xmsl.org
 DOMAIN,line.xmsl.org
 DOMAIN,ushd.xmsl.org
 DOMAIN,free.xmsl.org
+DOMAIN-SUFFIX,xmsl.org
 IP-CIDR,89.58.63.237/24
 #paul服
 DOMAIN-SUFFIX,imetyou.top
