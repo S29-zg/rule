@@ -39,7 +39,7 @@ DOMAIN,hd.xmsl.org
 DOMAIN,cfhd.xmsl.org
 DOMAIN,line.xmsl.org
 DOMAIN,ushd.xmsl.org
-DOMAIN,ee.xmsl.org
+DOMAIN,free.xmsl.org
 IP-CIDR,89.58.63.237/24
 #paul服
 DOMAIN-SUFFIX,imetyou.top
@@ -60,4 +60,8 @@ DOMAIN,emby.carlos.trade
 #cc
 DOMAIN,cc.ccemby.tk    
 DOMAIN-SUFFIX,carryz.net
+#porn
+DOMAIN,pornemby.club
+#polo
+DOMAIN,free.poloemby.xyz
 

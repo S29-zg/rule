@@ -51,7 +51,16 @@ DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-KEYWORD,hifini
 
 #APTV epg地址
-DOMAIN,epg.112114.xyz
+DOMAIN, epg.112114.xyz
 
-#古茗
-DOMAIN,goodme.pro
+#talkatone
+DOMAIN-SUFFIX,tktn.be
+DOMAIN-SUFFIX,talkatone.com
+DOMAIN-SUFFIX,mobilefuse.com
+IP-CIDR,205.164.56.0/24,no-resolve
+IP-CIDR,69.46.75.0/24,no-resolve
+IP-CIDR,205.164.56.0/24,no-resolve
+IP-CIDR,50.117.27.0/24,no-resolve
+
+DOMAIN,pan99.xyz
+            

@@ -12,3 +12,10 @@ DOMAIN-KEYWORD,boxjs
 
 #sub_store
 DOMAIN,sub.store
+
+#filmNoir
+DOMAIN-SUFFIX,filmnoir.app
+
+#lja
+DOMAIN,www.xmsl.org
+DOMAIN,cfv2.xmsl.org
