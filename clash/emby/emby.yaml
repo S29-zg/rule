@@ -50,16 +50,14 @@ payload:
   - DOMAIN-SUFFIX,emby.at
   #Temby
   - DOMAIN,temby.285286.xyz
-  #酷安
-  - IP-CIDR,140.238.6.215/32,no-resolve
-  - IP-CIDR,94.16.122.183/32,no-resolve
-  - DOMAIN,kuan2.yutron.eu.org
-  #鹅城
-  - DOMAIN-SUFFIX,the98.ltd
-  - IP-CIDR,23.225.116.79/32,no-resolve
   #ACA
   - DOMAIN-SUFFIX,emby.aca.best
   - DOMAIN-SUFFIX,porn.aca.best
   #MJJ
   - DOMAIN,direct.mjjemby.org
   - DOMAIN,cf.mjjemby.org
+  #teka
+  - DOMAIN,emby.carlos.trade
+  #cc
+  - DOMAIN,cc.ccemby.tk    
+  - DOMAIN-SUFFIX,carryz.net
