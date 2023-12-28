@@ -39,7 +39,7 @@ DOMAIN,hd.xmsl.org
 DOMAIN,cfhd.xmsl.org
 DOMAIN,line.xmsl.org
 DOMAIN,ushd.xmsl.org
-DOMAIN,ee.xmsl.org
+DOMAIN,free.xmsl.org
 IP-CIDR,89.58.63.237/24
 #paul服
 DOMAIN-SUFFIX,imetyou.top
@@ -55,6 +55,3 @@ DOMAIN-SUFFIX,porn.aca.best
 #MJJ
 DOMAIN,cf.mjjemby.org
 DOMAIN,direct.mjjemby.org
-#叔服
-DOMAIN,jz.mcjoker.xyz
-DOMAIN,emby3.mcjoker.xyz
