@@ -34,15 +34,7 @@ payload:
   #paul服
   - DOMAIN-SUFFIX,imetyou.top
   #垃圾影音
-  - DOMAIN,cf.xmsl.org
-  - DOMAIN,cf.gtlx.org
-  - DOMAIN,cfde.xmsl.org
-  - DOMAIN,de.xmsl.org
-  - DOMAIN,hd.xmsl.org
-  - DOMAIN,cfhd.xmsl.org
-  - DOMAIN,line.xmsl.org
-  - DOMAIN,ushd.xmsl.org
-  - DOMAIN,ee.xmsl.org
+  - DOMAIN-SUFFIX,xmsl.org
   - IP-CIDR,89.58.63.237/24
   #私服
   - DOMAIN-SUFFIX,jzq.lol
