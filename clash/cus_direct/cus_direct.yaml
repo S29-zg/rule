@@ -2,36 +2,5 @@ payload:
 ############### EMBY ###########
 
   - DOMAIN-SUFFIX,ycxdy.top
-
-  #垃圾啊
-  - DOMAIN,4837.xmsl.org
-  - DOMAIN,kr.xmsl.org
-  - DOMAIN,shs.xmsl.org
-  - DOMAIN,nl.xmsl.org
-  - DOMAIN,1.loseremby.org
-  - DOMAIN,ccde.xmsl.org
-  - DOMAIN,ccus.xmsl.org
-  - DOMAIN,krde.xmsl.org
-  - DOMAIN,krus.xmsl.org
-  - DOMAIN,kr2.xmsl.org
-  - DOMAIN,nl2.xmsl.org
-  - DOMAIN,shs2.xmsl.org
-  - DOMAIN,www.loseremby.org
-  - DOMAIN,sbd.xmsl.org
-  - DOMAIN,d9.xmsl.org
-  - DOMAIN,bcn.xmsl.org
-  - DOMAIN,test.xmsl.org
-  - DOMAIN,cdn.enmm.org
-  - DOMAIN,vpsjp.xmsl.org
-  - DOMAIN,vpsus.xmsl.org
-  - DOMAIN,cmi.xmsl.org
-  - DOMAIN,vpsde.xmsl.org
-  - DOMAIN,oraclekr.xmsl.org
-  - DOMAIN,pro.xmsl.org
-  - DOMAIN,ry.xmsl.org
-  - DOMAIN,pm.xmsl.org
-  - DOMAIN,iij.xmsl.org
-  - DOMAIN,ee.xmsl.org
-  - DOMAIN,fk.zckll.com
   
 ############### EMBY ###########
