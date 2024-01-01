@@ -6,7 +6,7 @@ DOMAIN-SUFFIX,tank66.top
 DOMAIN-SUFFIX,cs.tank88.top
 #misakaf服
 DOMAIN-SUFFIX,misakaf.org 
-DOMAIN-KEYWORD,push-kr
+IP-CIDR,102.223.180.108
 #misty服
 DOMAIN-SUFFIX,misty.ltd  
 #鑫澪服
@@ -32,7 +32,7 @@ DOMAIN-SUFFIX,emby.ooii.net
 DOMAIN-SUFFIX,nc1.infinityfly.top
 #垃圾影音
 DOMAIN-SUFFIX,xmsl.org
-IP-CIDR,89.58.63.237/24
+IP-CIDR,89.58.63.237/32
 #paul服
 DOMAIN-SUFFIX,imetyou.top
 #私服
