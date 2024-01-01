@@ -7,7 +7,7 @@ payload:
   - DOMAIN-SUFFIX,cs.tank88.top  
   #misakaf服
   - DOMAIN-SUFFIX,misakaf.org  
-  - DOMAIN-KEYWORD,push-kr
+  - IP-CIDR,102.223.180.108/32
   #misty服
   - DOMAIN-SUFFIX,misty.ltd  
   #鑫澪服
@@ -35,7 +35,7 @@ payload:
   - DOMAIN-SUFFIX,imetyou.top
   #垃圾影音
   - DOMAIN-SUFFIX,xmsl.org
-  - IP-CIDR,89.58.63.237/24
+  - IP-CIDR,89.58.63.237/32
   #私服
   - DOMAIN-SUFFIX,jzq.lol
   #pandatv
