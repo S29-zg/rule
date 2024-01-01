@@ -4,3 +4,4 @@ payload:
   - DOMAIN-SUFFIX,ycxdy.top
   
 ############### EMBY ###########
+  - DOMAIN-SUFFIX,plex.tv

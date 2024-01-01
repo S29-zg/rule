@@ -36,3 +36,5 @@ IP-CIDR,50.117.27.0/24,no-resolve
 #pan99
 DOMAIN,pan99.xyz
             
+#plex
+DOMAIN-SUFFIX,plex.tv
