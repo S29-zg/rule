@@ -42,3 +42,6 @@ DOMAIN-SUFFIX,plex.tv
 #阿里云盘签到
 DOMAIN,alipan.pro  
 DOMAIN,aliyundrive.pro
+
+#appraven
+DOMAIN-SUFFIX,appraven.net
