@@ -6,6 +6,6 @@
 hostname = yuchen.tonghuaios.com
 
 [Script]
-cron "14 0 * * *" script-path=https://raw.githubusercontent.com/S29-zg/rule/main/script/yucheng/yuchenios.js, timeout=300, tag=ios游戏迷
+cron "10 9 * * *" script-path=https://raw.githubusercontent.com/S29-zg/rule/main/script/yucheng/yuchenios.js, timeout=300, tag=ios游戏迷
 
 http-request ^https:\/\/yuchen.tonghuaios.com\/users\?tab=index script-path=https://raw.githubusercontent.com/S29-zg/rule/main/script/yucheng/yuchenios.js, timeout=10, tag=ios游戏迷获取token
