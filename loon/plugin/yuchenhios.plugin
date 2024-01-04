@@ -1,11 +1,12 @@
 #!name=yuchenios
-#!desc=yuchenios
+#!desc=yuchenios签到
 #!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1096.png
+
+
+[Script]
+cron "10 9 * * *" script-path=https://raw.githubusercontent.com/S29-zg/rule/main/script/yucheng/yuchenios.js, timeout=300, tag=ios游戏迷签到
+
+http-request ^https:\/\/yuchen.tonghuaios.com\/users\?tab=index script-path=https://raw.githubusercontent.com/S29-zg/rule/main/script/yucheng/yuchenios.js, timeout=10, tag=ios游戏迷获取token
 
 [MITM]
 hostname = yuchen.tonghuaios.com
-
-[Script]
-cron "10 9 * * *" script-path=https://raw.githubusercontent.com/S29-zg/rule/main/script/yucheng/yuchenios.js, timeout=300, tag=ios游戏迷
-
-http-request ^https:\/\/yuchen.tonghuaios.com\/users\?tab=index script-path=https://raw.githubusercontent.com/S29-zg/rule/main/script/yucheng/yuchenios.js, timeout=10, tag=ios游戏迷获取token
