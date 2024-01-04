@@ -12,16 +12,6 @@
 脚本兼容：Surge、QuantumultX、Loon、Shadowrocket、Node.js
 只测试过loon和青龙，其它环境请自行尝试】
 
-loon：
-打开网站->登录后进入个人中心，若提示获取ck成功则可以使用该脚本
-
-[Script]
-cron "14 0 * * *" script-path=https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/yuchenios.js, timeout=300, tag=ios游戏迷
-http-request ^https:\/\/yuchen.tonghuaios.com\/users\?tab=index script-path=https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/yuchenios.js, timeout=10, tag=ios游戏迷获取token
-
-[MITM]
-hostname =yuchen.tonghuaios.com
-
 ====================================
 ⚠️【免责声明】
 ------------------------------------------
