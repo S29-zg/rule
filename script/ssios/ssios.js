@@ -106,7 +106,7 @@ class UserInfo {
         };
     }
     getRandomTime() {
-        return randomInt(5000, 7000);
+        return randomInt(1000, 3000);
     }
     //查询积分
     async nonce() {
@@ -127,7 +127,7 @@ class UserInfo {
                 $.post(signinRequest, async (error, response, data) => {
                     try {
                         if (data) {
-                            var reg = /data-nonce=\"(.*)\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"每日签到奖励: 0.3积分\"\>/;
+                            var reg = /data-nonce=\"(.*)\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"每日签到奖励: 0.2积分\"\>/;
                             if (response.body?.search(reg) != -1) {
                                 this.nonceVal = reg.exec(response.body)[1];
                                 debug(this.nonceVal);
