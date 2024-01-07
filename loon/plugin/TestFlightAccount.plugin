@@ -1,7 +1,7 @@
 #!name=TestFlight账户管理
 #!desc=自动存储/合并多个TestFlight账户列表
 #!author=@NobyDa
-#!icon=https://raw.githubusercontent.com/S29-zg/Picture/main/icon/AppRaven.png
+#!icon=https://raw.githubusercontent.com/S29-zg/Picture/main/icon/testflight.png
 
 [General]
 skip-proxy = iosapps.itunes.apple.com
