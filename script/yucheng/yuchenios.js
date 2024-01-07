@@ -5,12 +5,23 @@
 
 2023.09.04 新增评论任务、获取ck方法
 2023.10.14 修复域名更换后签到失败的问题
+2024.01.07 修复重写获取ck无法触发的问题
 
 网站入口地址：https://yuchen.tonghuaios.com?tg=add3ea3f
 介意邀请码可以把后面的参数删掉
 使用方法：抓取yuchen.tonghuaios.com域名下签到的cookie填写到yuchenCookie，多账号用 @ 分隔
 脚本兼容：Surge、QuantumultX、Loon、Shadowrocket、Node.js
 只测试过loon和青龙，其它环境请自行尝试】
+
+loon：
+打开网站->登录后进入我的->随便点一个按钮，如编辑资料、修改密码、积分管理，若提示获取ck成功则可以使用该脚本
+
+[Script]
+cron "14 10 * * *" script-path=https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/yuchenios.js, timeout=300, tag=ios游戏迷
+http-request ^https:\/\/yuchen.tonghuaios.com\/users\?.+ script-path=https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/yuchenios.js, timeout=10, tag=ios游戏迷获取token
+
+[MITM]
+hostname =yuchen.tonghuaios.com
 
 ====================================
 ⚠️【免责声明】
