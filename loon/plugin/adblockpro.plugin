@@ -1,0 +1,10 @@
+#!name=adblockpro
+#!desc=adblockpro
+#!icon=https://raw.githubusercontent.com/S29-zg/Picture/main/icon/adblocker.PNG
+
+[MITM]
+hostname = api.adblockpro.app
+
+[Script]
+http-response ^https:\/\/api\.adblockpro\.app\/verify script-path=https://raw.githubusercontent.com/S29-zg/rule/main/script/ADBlocker/adblockpro.js, requires-body=true, timeout=60, tag=adblockpro
+
