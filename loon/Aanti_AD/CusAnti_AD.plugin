@@ -5,5 +5,5 @@
 [MITM]
 hostname = mbasecc.bas.cmbchina.com
 
-[URL Rewrite]
+[Rewrite]
 ^https:\/\/mbasecc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec - reject-dict
