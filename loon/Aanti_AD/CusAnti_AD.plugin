@@ -1,0 +1,9 @@
+#!name=自用Anti_AD
+#!desc=自用Anti_AD
+#!icon=https://raw.githubusercontent.com/S29-zg/Picture/main/icon/Anti_AD.PNG
+
+[MITM]
+hostname = mbasecc.bas.cmbchina.com
+
+[URL Rewrite]
+^https:\/\/mbasecc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec - reject-dict
