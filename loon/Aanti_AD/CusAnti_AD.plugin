@@ -1,6 +1,6 @@
 #!name=自用Anti_AD
 #!desc=自用Anti_AD
-#!icon=https://raw.githubusercontent.com/S29-zg/Picture/main/icon/Anti_AD.PNG
+#!icon=https://raw.githubusercontent.com/S29-zg/Picture/main/icon/Anti_AD.JPG
 
 [MITM]
 hostname = mbasecc.bas.cmbchina.com
