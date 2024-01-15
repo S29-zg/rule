@@ -1,0 +1,7 @@
+#!name = Spotify检测
+#!desc = Spotify检测注册
+#!author = @mcdasheng
+#!icon = https://raw.githubusercontent.com/S29-zg/Picture/main/icon/Spotify.PNG
+
+[Script]
+generic script-path = https://raw.githubusercontent.com/S29-zg/rule/main/script/spotify/SpotifyCheckRegistration.js, tag = Spotify 注册检测
