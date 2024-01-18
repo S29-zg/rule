@@ -60,4 +60,5 @@ DOMAIN,free.poloemby.xyz
 DOMAIN,emby3.mcjoker.xyz
 #Lyrebird
 IP-CIDR,167.235.116.53/32
+DOMAIN-SUFFIX,lyrebirdemby.com
 
