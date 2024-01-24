@@ -1,0 +1,19 @@
+#!name=Anti_LSP
+#!author=𝒀𝒖𝒉𝒆𝒏𝒈
+
+[MITM]
+hostname = *.bmafdxt.com, *.yxlauhm.com, *.psovzwr.com, *.50*pi.com, *.wmq*api*.com, *.tbrapi.org, *.hichatapi.com, *.longyuandingyi.com,*.zihzot.com,*.snowing.ren,*.vzcnqmr.cn,*beibeini3.cn,*.pili01a.net,*.hhclyjz.cn, *.bhhcdou.cn, *.xuxivwx.cn, *.sdtuxyh.cn, *.kngpdsz.cn, *.sugugaj.cn, *.mqqjrv.com, *.gnikvh.com, *.auhvylo.cn, *.hefeixcx.xyz, *.vsmdboa.cn, *.pnowdvc.cn, *.xgfipub.cn, *.guangxu124.cn, *.pvlzxh.cn, *.b0lgw.com, *.avwpyqtl.com, *.uvursx.com
+
+[Script]
+http-response ^https?:\/\/.*(bmafdxt|yxlauhm|psovzwr).com/pwa.php script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/lsp.js, timeout=60, tag=91短视频
+
+http-response ^https?:\/\/.*50.*pi.com/pwa.php/api/(user/userinfo|MvDetail/(detail|xiao_detail)|home/(getOpenAdsAndVersion|appcenter)|system/getad) script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/lsp.js, requires-body=true,timeout=60, tag=50度灰
+
+http-response ^https?:\/\/.*(wmq.*api\d+).com/pwa.php script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/lsp.js, timeout=60, tag=微密圈
+
+http-response ^https?:\/\/.*hichatapi.+\/api\.php$ script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/lsp.js, timeout=60, tag=撸先生
+
+[URL Rewrite]
+# 𝐀𝐋𝐋
+^(https?:\/\/)(?!long)([^./]+\.)*(longyuandingyi.com|zihzot.com|snowing.ren|vzcnqmr.cn|beibeini3.cn|pili01a.net|hhclyjz.cn|bhhcdou.cn|xuxivwx.cn|sdtuxyh.cn|kngpdsz.cn|sugugaj.cn|mqqjrv.com|gnikvh.com|auhvylo.cn|hefeixcx.xyz|vsmdboa.cn|pnowdvc.cn|xgfipub.cn|guangxu124.cn|pvlzxh.cn|b0lgw.com|avwpyqtl.com|uvursx.com)(\/.*)? 302 $1long.$3$4
+
