@@ -3,7 +3,97 @@
 #!icon=https://raw.githubusercontent.com/S29-zg/Picture/main/icon/Anti_AD.JPG
 
 [MITM]
-hostname = mbasecc.bas.cmbchina.com
+hostname = mbasecc.bas.cmbchina.com,napi.ithome.com,yunbusiness.ccb.com,gab.122.gov.cn,p*.pstatp.com,api-ac.liepin.com, api-wanda.liepin.com,midc.cdn-static.abchina.com.cn, enjoy.cdn-static.abchina.com,m.qianbao.qq.com,alt-r.my.com,mp.weixin.qq.com, weixin110.qq.com, security.wechat.com,c.m.163.com,wallet.95516.com, tysdk.95516.com, ads.95516.com,webappcfg.paas.cmbchina.com,mbasecc.bas.cmbchina.com, intellicc.bas.cmbchina.com,mbs.boc.cn, mlife.jf365.boc.cn,client.app.coc.10086.cn, h.client.app.coc.10086.cn,api.ahmobile.cn,cloud.189.cn, zt-app.go189.cn,app.10099.com.cn
 
 [Rewrite]
 ^https:\/\/mbasecc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec - reject-dict
+
+#中国广电
+^https?:\/\/app\.10099\.com\.cn\/contact-web\/api\/version\/getFlashScreenPage url reject-200
+
+#中国电信
+^https?:\/\/cloud\.189\.cn\/include\/splash\/ - reject
+^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation - reject-img
+
+#中国移动安徽
+^https?:\/\/api\.ahmobile\.cn:443\/eip\?eip_serv_id=app\.getAllNew - reject
+
+# > 建行生活
+^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A00(2|6|9) - reject-200
+
+# > 交管12123
+^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$ - reject
+^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery - reject
+
+#今日头条
+^https:\/\/p\d\.pstatp.com\/origin - reject
+^https:\/\/pb\d\.pstatp.com\/origin - reject
+
+#猎聘
+^https?:\/\/api-ac\.liepin\.com\/api\/com\.liepin\.cyclops\.live\.get-ad-cards - reject-dict
+^https?:\/\/api-wanda\.liepin\.com\/api\/com\.liepin\.cbp\.baizhong\.op\.v2-show-4app - reject-200
+
+# 农业银行 开屏广告
+^https:\/\/midc\.cdn-static\.abchina\.com\.cn\/distributecenterimg\/file\/download\/62b8741026164b66b4a528a200eef09e9900032820231025 - reject-dict
+^https:\/\/midc\.cdn-static\.abchina\.com\.cn\/distributecenterimg\/file\/download\/(bdfb4|86fb9) - reject-dict
+^https?:\/\/enjoy\.cdn-static\.abchina\.com\/yx-engine-web\/file\/download\/(9ce31|1bf6e) - reject-200
+^https?:\/\/enjoy\.cdn-static\.abchina\.com\/yx-engine-web\/file\/download\/6bd18.*? - reject-200
+
+#qq钱包
+^https?:\/\/m\.qianbao\.qq\.com\/pages\/walletHome\?invisible - reject
+
+#talktone
+https://alt-r.my.com/mobile/61648 - reject-dict
+
+# 微信公众号去除商品推广
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/cps_product_info\?action - reject-dict
+
+#网易新闻
+^https?:\/\/c\.m\.163\.com\/nc\/gl\/ - reject-200
+
+# 云闪付 默认关闭,只使用分流去云闪付广告
+^https:\/\/wallet\.95516\.com\/s\/wl\/icon\/long - reject
+^https?:\/\/(tysdk|ads)\.95516\.com - reject-dict
+
+#招商银行
+# 开屏广告
+^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v\d\/func\/getmarketconfig - reject-200
+# 首页横幅广告
+^https:\/\/mbmodule-openapi\.paas\.cmbchina\.com\/graphic\/v2\/module\/graphic - reject-dict
+
+# 掌上生活 开屏广告
+^https:\/\/mbasecc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec - reject-dict
+# 设置栏目内广告
+^https?:\/\/intellicc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.render\.api\.render\/getDynamicDataSec - reject
+
+#中国银行
+^https:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg - reject-200
+# > 中国银行 缤纷生活
+^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?txnId=2PIC000001 - reject-200
+
+#中国移动
+^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject-200
+^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList - reject
+# 多个悬浮窗
+^https:\/\/(client\.app\.coc|h\.app\.coc|app)\.10086\.cn\/biz-orange\/DN\/emotionMarket - reject
+
+[Script]
+# > IT之家
+http-response ^https:\/\/napi\.ithome\.com\/api\/(news\/index|topmenu\/getfeeds) script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/ithome.js, requires-body=true, timeout=60, tag=ithome
+
+# > 建行生活
+http-response ^https?:\/\/yunbusiness\.ccb\.com\/basic_service\/txCtrl\?txcode=A3341AB04  script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/ccbLife/ccbLifeAds.js requires-body=true
+
+http-request ^https?:\/\/yunbusiness\.ccb\.com\/basic_service\/txCtrl\?txcode=A3341AB05 script-path=http://script.hub/convert/_start_/https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/ccbLife/A3341AB05.json/_end_/A3341AB05.json?type=mock&target-app=loon-plugin, timeout=60, tag=A3341AB05
+
+http-response ^https?:\/\/yunbusiness\.ccb\.com\/basic_service\/txCtrl\?txcode=A3341AB04 script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/ccbLife/ccbLifeAds.js, requires-body=true, timeout=60, tag=ccbLifeAds
+
+#微信
+# 公众号文章下方广告
+http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js, requires-body=true, timeout=30, tag=replaceBody, argument="advertisement->random_body"
+
+http-response ^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js, requires-body=true, timeout=60, tag=UnblockURLinWeChat
+
+
+
+
