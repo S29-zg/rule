@@ -82,7 +82,6 @@ https://alt-r.my.com/mobile/61648 - reject-dict
 http-response ^https:\/\/napi\.ithome\.com\/api\/(news\/index|topmenu\/getfeeds) script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/ithome.js, requires-body=true, timeout=60, tag=ithome
 
 # > 建行生活
-http-response ^https?:\/\/yunbusiness\.ccb\.com\/basic_service\/txCtrl\?txcode=A3341AB04  script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/ccbLife/ccbLifeAds.js requires-body=true
 
 http-request ^https?:\/\/yunbusiness\.ccb\.com\/basic_service\/txCtrl\?txcode=A3341AB05 script-path=http://script.hub/convert/_start_/https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/ccbLife/A3341AB05.json/_end_/A3341AB05.json?type=mock&target-app=loon-plugin, timeout=60, tag=A3341AB05
 
