@@ -1,0 +1,10 @@
+#!name=Grammarly解锁
+#!desc=Grammarly🔓
+#!author=@David_Hex01
+#!icon=https://raw.githubusercontent.com/S29-zg/Picture/main/icon/Grammarly.PNG
+
+[Script]
+http-response ^https?:\/\/.*\.grammarly\.com\/(api\/v\d\/subscription|v\d\/user\/oranonymous) script-path=https://raw.githubusercontent.com/S29-zg/rule/main/script/Grammarly/Grammarly.js, requires-body=true, timeout=60, tag=Grammarly
+
+[MITM]
+hostname = *.grammarly.com
