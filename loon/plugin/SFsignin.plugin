@@ -2,6 +2,7 @@
 #!desc = 顺丰小程序签到
 #!author = @chavyleung
 #!icon = https://raw.githubusercontent.com/S29-zg/Picture/main/icon/SF.PNG
+#!input=chavy_login_sfexpress
 
 
 [Script]
