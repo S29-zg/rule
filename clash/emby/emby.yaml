@@ -57,3 +57,13 @@ payload:
   - DOMAIN,pornemby.club
   #polo
   - DOMAIN,free.poloemby.xyz
+  #叔服
+  - DOMAIN,emby3.mcjoker.xyz
+#Lyrebird
+  - IP-CIDR,167.235.116.53/32
+  - IP-CIDR,172.104.182.167/32
+  - DOMAIN-SUFFIX,lyrebirdemby.com
+#ntrrr
+  - DOMAIN,stream.ntrrr.top
+#江湖
+  - DOMAIN,film.reddust.link
