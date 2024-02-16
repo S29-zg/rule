@@ -4,7 +4,7 @@
 
 
 [Script]
-cron "10 0 * * * *" script-path=ysf.js, timeout=300, tag=云闪付签到
-http-request ^https:\/\/youhui.95516.com\/newsign\/api\/sharing_power\/showUserTask script-path=ysf.js, timeout=10, tag=云闪付签到获取token
+cron "10 0 * * * *" script-path=https://gist.githubusercontent.com/Sliverkiss/f23891426d8b5a7603851d0496e94ab3/raw/ysfV2.js, timeout=300, tag=云闪付签到
+http-request ^https:\/\/youhui.95516.com\/newsign\/api\/sharing_power\/showUserTask script-path=https://gist.githubusercontent.com/Sliverkiss/f23891426d8b5a7603851d0496e94ab3/raw/ysfV2.js, timeout=10, tag=云闪付签到获取token
 [MITM]
 hostname =youhui.95516.com
