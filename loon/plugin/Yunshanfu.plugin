@@ -1,0 +1,10 @@
+#!name=云闪付签到
+#!desc=云闪付签到
+#!author=@Sliverkiss
+
+
+[Script]
+cron "10 0 * * * *" script-path=ysf.js, timeout=300, tag=云闪付签到
+http-request ^https:\/\/youhui.95516.com\/newsign\/api\/sharing_power\/showUserTask script-path=ysf.js, timeout=10, tag=云闪付签到获取token
+[MITM]
+hostname =youhui.95516.com
