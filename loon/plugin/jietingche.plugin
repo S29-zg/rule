@@ -1,7 +1,7 @@
 #!name = 捷停车签到
 #!desc = 捷停车签到
 #!author = @Fokit_Orz
-!icon=https://raw.githubusercontent.com/S29-zg/Picture/main/icon/JTC.PNG
+#!icon=https://raw.githubusercontent.com/S29-zg/Picture/main/icon/JTC.PNG
 
 [MITM]
 hostname = sytgate.jslife.com.cn
@@ -9,4 +9,4 @@ hostname = sytgate.jslife.com.cn
 [Script]
 cron "15 9 * * *" script-path=https://raw.githubusercontent.com/S29-zg/rule/main/script/jietingche/jparking_sign.js, tag=捷停车签到
 
-http-request ^https:\/\/sytgate\.jslife\.com\.cn\/core-gateway\/order\/carno\/pay\/info script-path=https://raw.githubusercontent.com/S29-zg/rule/main/script/jietingche/jparking_sign.js, requires-body=true, timeout=10, enabled=true, tag=获取捷停车userId
+http-request ^https:\/\/sytgate\.jslife\.com\.cn\/core-gateway\/order\/carno\/pay\/info script-path=https://raw.githubusercontent.com/S29-zg/rule/main/script/jietingche/jparking_sign.js, requires-body=false, timeout=10, enabled=false, tag=获取捷停车userId
