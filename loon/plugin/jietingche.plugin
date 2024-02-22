@@ -1,6 +1,7 @@
 #!name = 捷停车签到
 #!desc = 捷停车签到
 #!author = @Fokit_Orz
+!icon=https://raw.githubusercontent.com/S29-zg/Picture/main/icon/JTC.PNG
 
 [MITM]
 hostname = sytgate.jslife.com.cn
