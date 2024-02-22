@@ -7,6 +7,8 @@
 使用说明：添加重写规则并打开捷停车APP即可获取userId
 更新时间：2024-02-01
 
+搜索变量 jtc_video，填入 true。或者修改脚本第52行false修改为true保存本地使用
+
 ================ Surge 配置 ================
 [MITM]
 hostname = %APPEND% sytgate.jslife.com.cn
