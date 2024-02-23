@@ -27,3 +27,6 @@ DOMAIN-SUFFIX,coze.com
 
 #grammarly
 DOMAIN-SUFFIX,grammarly.com
+
+#ipinfo
+DOMSIN-SUFFIX,ipinfo.io
