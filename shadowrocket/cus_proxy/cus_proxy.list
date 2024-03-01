@@ -30,3 +30,6 @@ DOMAIN-SUFFIX,grammarly.com
 
 #ipinfo
 DOMAIN-SUFFIX,ipinfo.io
+
+#Stream
+DOMAIN-SUFFIX,stream-link.org
