@@ -5,9 +5,9 @@
 #!update=2023-12-14
 
 [Script]
-http-request ^https://newdrugs.dxy.cn script-path=https://gist.githubusercontent.com/Yu9191/8063f0b765b7da90ab77bdc0b8395f7d/raw/YYZShd.js, timeout=60, tag=YYZShd
+http-request ^https://newdrugs.dxy.cn script-path=https://raw.githubusercontent.com/S29-zg/rule/main/script/Medical/YYZS.js, timeout=60, tag=YYZShd
 
-http-response https://newdrugs.dxy.cn/app/user/pro/stat? script-path=https://gist.githubusercontent.com/Yu9191/285fc49e4defe0c73555b503d8972a98/raw/YYZSbd.js, requires-body=true, timeout=60, tag=YYZSbd
+http-response https://newdrugs.dxy.cn/app/user/pro/stat? script-path=https://raw.githubusercontent.com/S29-zg/rule/main/script/Medical/YYZS.js, requires-body=true, timeout=60, tag=YYZSbd
 
 [MITM]
 hostname = newdrugs.dxy.cn
