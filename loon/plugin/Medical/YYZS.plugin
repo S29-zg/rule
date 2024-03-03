@@ -1,0 +1,13 @@
+#!name=用药助手
+#!desc=解锁会员内部专享。
+#!author=ios151
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1062.png
+#!update=2023-12-14
+
+[Script]
+http-request ^https://newdrugs.dxy.cn script-path=https://gist.githubusercontent.com/Yu9191/8063f0b765b7da90ab77bdc0b8395f7d/raw/YYZShd.js, timeout=60, tag=YYZShd
+
+http-response https://newdrugs.dxy.cn/app/user/pro/stat? script-path=https://gist.githubusercontent.com/Yu9191/285fc49e4defe0c73555b503d8972a98/raw/YYZSbd.js, requires-body=true, timeout=60, tag=YYZSbd
+
+[MITM]
+hostname = newdrugs.dxy.cn
