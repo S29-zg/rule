@@ -1,0 +1,10 @@
+#!name = 每日一言
+#!desc = 每日一言
+#!author = @s29
+
+[Script]
+
+cron "*/5 * * * * *" script-path=,tag=每日一言
+
+[MITM]
+hostname = ccsp-egmas.sf-express.com
