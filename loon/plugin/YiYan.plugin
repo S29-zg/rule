@@ -7,4 +7,4 @@
 cron "*/5 * * * * *" script-path=https://raw.githubusercontent.com/S29-zg/rule/main/script/s29/YiYanOfDay.js,tag=每日一言
 
 [MITM]
-hostname = ccsp-egmas.sf-express.com
+hostname = v1.hitokoto.cn
