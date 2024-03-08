@@ -1,6 +1,6 @@
 {
-    "id":"29",
-    "name":"s29 json",
+    "id":"s29",
+    "name":"s29订阅",
     "author":"s29",
     "repo":"",
     "apps":[
@@ -11,17 +11,18 @@
       "author":"s29",
       "repo":"",
       "icons":[
+        "https://developer.hitokoto.cn/logo.png",
         "https://developer.hitokoto.cn/logo.png"
       ],
       "keys":["type"],
-      "descs_html":["填写一言类型"],
+      "descs_html":["填写类型"],
       "setting":[
       {
         "id":"type",
         "name":"类型",
         "val":"",
         "type":"textarea",
-        "desc":"一言类型"
+        "desc":"填写类型"
       }
       ]
     }
