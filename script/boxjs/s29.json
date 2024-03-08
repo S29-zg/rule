@@ -16,12 +16,11 @@
         "https://developer.hitokoto.cn/logo.png"
       ],
       "keys":["type"],
-      "descs_html":["填写类型"],
       "setting":[
       {
         "id":"type",
         "name":"类型",
-        "val":"",
+        "val":null,
         "type":"textarea",
         "desc":"填写类型"
       }
