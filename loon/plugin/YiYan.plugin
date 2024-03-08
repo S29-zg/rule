@@ -1,6 +1,8 @@
 #!name = 每日一言
 #!desc = 每日一言
 #!author = @s29
+#!icon = https://developer.hitokoto.cn/logo.png
+#!input=type
 
 [Script]
 
