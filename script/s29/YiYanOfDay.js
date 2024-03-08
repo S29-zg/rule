@@ -1,9 +1,10 @@
 const $=new Env("YiYan");
-let type=$.getdata("type");
+var type=$.getdata("type");
+var url="https://v1.hitokoto.cn?encode=json&c="+type;
 
 
 $httpClient.get(
-  "https://v1.hitokoto.cn?c="+type+"&encode=json",
+  url,
   function (error, response, data) {
     // 检查是否有错误发生
     if (error) {
