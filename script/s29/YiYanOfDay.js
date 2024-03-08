@@ -1,9 +1,9 @@
-const $=new env("YiYan");
-$.type=$.getdata("type")?$.getdata("type"):"";
+const $=new Env("YiYan");
+let type=$.getdata("type");
 
 
 $httpClient.get(
-  "https://v1.hitokoto.cn?c=${$.type}&encode=json",
+  "https://v1.hitokoto.cn?c="+type+"&encode=json",
   function (error, response, data) {
     // 检查是否有错误发生
     if (error) {
