@@ -21,6 +21,6 @@ $httpClient.get(
     var tp=jsonData.type;
 
     // 发送通知
-    $notification.post("每日一言-"+tp, author, hitokoto);
+    $notification.post("每日一言-", author, hitokoto);
   }
 );
