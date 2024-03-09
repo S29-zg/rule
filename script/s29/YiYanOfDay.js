@@ -17,7 +17,7 @@ l	抖机灵
 
 const $=new Env("YiYan");
 var type=$.getdata("type");
-var url = `https://v1.hitokoto.cn?encode=json&c=${type}`;
+var url = "https://v1.hitokoto.cn?encode=json&c="+type;
 
 getYiYan();
 
@@ -37,9 +37,9 @@ function getYiYan(){
       // 提取句子内容
       var hitokoto = jsonData.hitokoto;
       //提取作者
-      var author=jsonData.from_who?jsonData.from_who:"";
+      var author = jsonData.from_who || "";
       //提取出处
-      var from=jsonData.from?jsonData.from:"";
+      var from = jsonData.from || "";
       //拼接作者和出处
       var AF=author+"《"+from+"》";
   
