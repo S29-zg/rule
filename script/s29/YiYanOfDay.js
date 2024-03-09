@@ -41,7 +41,7 @@ function getYiYan(){
       //提取出处
       var from = jsonData.from || "";
       //拼接作者和出处
-      var AF=author+"《"+from+"》";
+      var AF="《"+from+"》"+author;
   
       // 发送通知
       $notification.post("每日一言", AF, hitokoto);
