@@ -19,10 +19,15 @@ function getYiYan(){
   
       // 提取句子内容
       var hitokoto = jsonData.hitokoto;
-      var author=jsonData.from_who;
+      //提取作者
+      var author=jsonData.from_who?jsonData.from_who:"";
+      //提取出处
+      var from=jsonData.from?jsonData.from:"";
+      //拼接作者和出处
+      var AF=author+" "+from;
   
       // 发送通知
-      $notification.post("每日一言", author, hitokoto);
+      $notification.post("每日一言", AF, hitokoto);
     }
   );
 }
