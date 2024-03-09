@@ -1,4 +1,3 @@
-
 var body = $response.body;
 
 body = body.replace(/"premium":false/g, '"premium":true');
