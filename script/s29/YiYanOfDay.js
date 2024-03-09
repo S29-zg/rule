@@ -1,3 +1,20 @@
+/**
+ * 填入参数类型
+a动画 
+b漫画 
+c游戏 
+d文学 
+e原创 
+f来自网络
+g	其他
+h	影视
+i	诗词
+j	网易云
+k	哲学
+l	抖机灵
+默认 动画
+ */
+
 const $=new Env("YiYan");
 var type=$.getdata("type");
 var url = `https://v1.hitokoto.cn?encode=json&c=${type}`;
@@ -24,7 +41,7 @@ function getYiYan(){
       //提取出处
       var from=jsonData.from?jsonData.from:"";
       //拼接作者和出处
-      var AF=author+" "+from;
+      var AF=author+"《"+from+"》";
   
       // 发送通知
       $notification.post("每日一言", AF, hitokoto);
