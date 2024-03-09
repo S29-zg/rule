@@ -2,6 +2,9 @@
 #!desc=AppRaven
 #!author=大卫
 #!icon=https://raw.githubusercontent.com/S29-zg/Picture/main/icon/AppRaven.png
+
+
+
 [Script]
 http-response https://appraven.net/appraven/graphql script-path=https://github.com/S29-zg/rule/blob/main/script/AppRavenUnlockVip/AppRaven.js, requires-body=true, timeout=60, tag=AppRaven
 
