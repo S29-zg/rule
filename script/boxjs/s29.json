@@ -21,7 +21,7 @@
       {
         "id":"type",
         "name":"type",
-        "val":"",
+        "val":"c",
         "type":"text",
         "placeholder": "",
         "desc":"填写类型"
