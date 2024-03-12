@@ -9,9 +9,11 @@
 DOMAIN, testflight.apple.com, PROXY
 
 [Script]
-http-request ^https?:\/\/testflight\.apple\.com\/v3\/accounts\/.*\/apps$ script-path = https://raw.githubusercontent.com/S29-zg/rule/main/script/TFAccount/Auto_join_TF.js, tag = TF信息获取
-http-request ^https://testflight.apple.com/join/(.*) script-path = https://raw.githubusercontent.com/S29-zg/rule/main/script/TFAccount/Auto_join_TF.js, tag = APP_ID获取
-cron "*/1 * * * * *" script-path = https://raw.githubusercontent.com/S29-zg/rule/main/script/TFAccount/Auto_join_TF.js, tag = 自动加入TF, timeout = 180
+http-request ^https?:\/\/testflight\.apple\.com\/v3\/accounts\/.*\/apps$ script-path = https://raw.githubusercontent.com/S29-zg/rule/main/script/TFAccount/TF_keys.js, tag = TF信息获取
+
+http-request ^https://testflight.apple.com/join/(.*) script-path = https://raw.githubusercontent.com/S29-zg/rule/main/script/TFAccount/TF_keys.js, tag = APP_ID获取
+
+cron "*/30 * * * * *" script-path = https://raw.githubusercontent.com/S29-zg/rule/main/script/TFAccount/Auto_join_TF.js, tag = 自动加入TF, timeout = 180
 
 [Mitm]
 hostname = testflight.apple.com
