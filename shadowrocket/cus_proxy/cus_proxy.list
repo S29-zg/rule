@@ -51,3 +51,6 @@ DOMAIN,testflight.apple.com
 
 #suno
 DOMAIN,app.suno.ai
+
+#CF
+DOMAIN-KEYWORD,cloudflareclient
