@@ -54,3 +54,6 @@ DOMAIN,app.suno.ai
 
 #CF
 DOMAIN-KEYWORD,cloudflareclient
+        
+#iptv        
+DOMAIN-SUFFIX,redtraffic.net
