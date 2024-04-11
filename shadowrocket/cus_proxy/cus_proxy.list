@@ -57,3 +57,6 @@ DOMAIN-KEYWORD,cloudflareclient
         
 #iptv        
 DOMAIN-SUFFIX,redtraffic.net
+
+#enpass
+DOMAIN-SUFFIX,enpass.io
