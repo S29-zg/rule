@@ -5,3 +5,4 @@ payload:
   
 ############### EMBY ###########
   - DOMAIN-SUFFIX,plex.tv
+  - DOMAIN-SUFFIX,enpass.io
