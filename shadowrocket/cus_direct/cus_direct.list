@@ -202,4 +202,7 @@ DOMAIN,vip.ffzyread.com
 DOMAIN,www.imgikzy.com
 ############################
 
+#stay
+DOMAIN-SUFFIX,stayfork.app
+
 
