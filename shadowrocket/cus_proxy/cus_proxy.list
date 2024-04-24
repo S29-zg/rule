@@ -1,17 +1,7 @@
-#sub_store
-DOMAIN-SUFFIX,vercel.app
-
 #trakt
 DOMAIN-SUFFIX,trakt.tv
 
-#script-hub
-DOMAIN-SUFFIX,script.hub
 
-#boxjs
-DOMAIN-KEYWORD,boxjs
-
-#sub_store
-DOMAIN,sub.store
 
 #filmNoir
 DOMAIN-SUFFIX,filmnoir.app
@@ -64,5 +54,8 @@ IP-CIDR,205.164.56.0/24,no-resolve
 IP-CIDR,69.46.75.0/24,no-resolve
 IP-CIDR,205.164.56.0/24,no-resolve
 IP-CIDR,50.117.27.0/24,no-resolve
+
+#Groq
+DOMAIN-SUFFIX,groq.com
 
 
