@@ -67,4 +67,7 @@ DOMAIN-SUFFIX,hub5pr.v6.phub.sandai.net
 DOMAIN-SUFFIX,hubciddata.sandai.net
 DOMAIN-KEYWORD,mypikpak
 
+#Digital ocean
+DOMAIN-SUFFIX,digitalocean.com
+
 
