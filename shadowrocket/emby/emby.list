@@ -25,9 +25,7 @@ DOMAIN,embyplus.org
 #蓝海
 DOMAIN-SUFFIX,public.emby.ws
 #野兽餐厅
-DOMAIN-SUFFIX,emby.jiecaoyu.cn
-DOMAIN-SUFFIX,emby.mius.uk
-DOMAIN-SUFFIX,emby.ooii.net
+DOMAIN-SUFFIX,mius.uk
 #infinityfly
 DOMAIN-SUFFIX,nc1.infinityfly.top
 #垃圾影音
