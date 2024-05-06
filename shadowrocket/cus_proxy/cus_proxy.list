@@ -74,6 +74,6 @@ DOMAIN-SUFFIX,digitalocean.com
 IP-CIDR,156.254.115.141/32,no-resolve
 
 #spaceship
-DOMAIN-SUFFIX,spaceship.com
+DOMAIN-KEYWORD,spaceship
 
 
