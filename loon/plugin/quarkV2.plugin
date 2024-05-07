@@ -12,7 +12,7 @@ http-request ^https:\/\/coral2\.quark\.cn\/quark\/(carbon|welfare)\/(v1|v2)\/sig
 
 http-request ^https:\/\/coral2\.quark\.cn\/quark\/welfare\/v2\/sleep\/trigger script-path=https://gist.githubusercontent.com/Sliverkiss/1589f69e675019b0b685a57a89de9ea5/raw/quarkV2.js, requires-body=true, timeout=60, tag=夸克网盘睡眠打卡收录任务
 
-cron "16 9,13 * * *" script-path=https://gist.githubusercontent.com/Sliverkiss/1589f69e675019b0b685a57a89de9ea5/raw/quarkV2.js, tag=夸克网盘签到任务
+cron "30 8,22 * * *" script-path=https://gist.githubusercontent.com/Sliverkiss/1589f69e675019b0b685a57a89de9ea5/raw/quarkV2.js, tag=夸克网盘签到任务
 
 
 [MITM]
