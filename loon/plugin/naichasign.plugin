@@ -1,0 +1,13 @@
+#!name=奶茶合集
+#!desc=奶茶多合一签到（霸王茶姬、沪上阿姨、益禾堂、丘大叔柠檬茶、老娘舅餐饮）
+#!author=Sliverkiss
+#!icon=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/teaMilk.png
+
+[Script]
+http-response ^https:\/\/(webapi|webapi2)\.qmai\.cn\/web\/seller\/(oauth\/flash-sale-login|account\/login-minp) script-path=https://gist.githubusercontent.com/Sliverkiss/8b4f5487e0f28786c7dec9c7484dcd5e/raw/teaMilk.js, requires-body=true, timeout=60, tag=奶茶获取token
+
+
+cron "7 9 * * *" script-path=https://gist.githubusercontent.com/Sliverkiss/8b4f5487e0f28786c7dec9c7484dcd5e/raw/teaMilk.js, timeout=300, tag=奶茶多合一签到
+
+[MITM]
+hostname = webapi2.qmai.cn,webapi.qmai.cn
