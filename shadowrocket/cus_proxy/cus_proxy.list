@@ -79,4 +79,7 @@ DOMAIN-KEYWORD,spaceship
 #cloudns
 DOMAIN-SUFFIX,cloudns.net
 
+#zlibrary
+DOMAIN-SUFFIX,z-library.se
+
 
