@@ -1,0 +1,12 @@
+#!name=携程签到
+#!desc=每日定时签到，
+#!author=NobyDa
+#!icon=https://raw.githubusercontent.com/S29-zg/Picture/main/icon/XC.PNG
+
+[Script]
+cron "15 9 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Ctrip-DailyBonus/Ctrip.js, timeout=60, tag=携程旅行(签到)
+
+http-response ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/[a-zA-Z]+Login(?:$|\?) script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Ctrip-DailyBonus/Ctrip.js, requires-body=true, tag=携程旅行(获取)
+
+[MITM]
+hostname = m.ctrip.com
