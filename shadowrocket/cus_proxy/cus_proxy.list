@@ -53,7 +53,7 @@ DOMAIN-SUFFIX,mobilefuse.com
 IP-CIDR,205.164.56.0/24,no-resolve
 IP-CIDR,69.46.75.0/24,no-resolve
 IP-CIDR,205.164.56.0/24,no-resolve
-    IP-CIDR,50.117.27.0/24,no-resolve
+IP-CIDR,50.117.27.0/24,no-resolve
 
 #Groq
 DOMAIN-SUFFIX,groq.com
@@ -82,4 +82,7 @@ DOMAIN-SUFFIX,cloudns.net
 #zlibrary
 DOMAIN-SUFFIX,z-library.se
 DOMAIN-SUFFIX,zlib-articles.se
+
+#komga漫画
+DOMAIN-KEYWORD,komga
 
