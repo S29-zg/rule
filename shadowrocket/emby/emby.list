@@ -33,6 +33,7 @@ DOMAIN-SUFFIX,nc1.infinityfly.top
 DOMAIN-SUFFIX,xmsl.org
 DOMAIN-SUFFIX,loseremby.org
 IP-CIDR,89.58.63.237/32
+DOMAIN,cf.emby.moe
 #paul服
 DOMAIN-SUFFIX,imetyou.top
 #私服
