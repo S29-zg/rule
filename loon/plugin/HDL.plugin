@@ -1,0 +1,8 @@
+#!name = 海底捞
+#!desc = 海底捞签到
+#!author = @Sliverkiss
+#!icon = https://raw.githubusercontent.com/S29-zg/Picture/main/icon/HDL.PNG
+
+
+[Script]
+cron "16 9 * * *" script-path=https://gist.githubusercontent.com/Sliverkiss/354e7994f9ee5cc9cc353b6aba320052/raw/7d83644b5e16c2d9f01e585cd3aacc0a6160ac3c/hdl.js, timeout=60, tag=海底捞每日签到
