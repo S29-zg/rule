@@ -102,3 +102,7 @@ DOMAIN-KEYWORD,macked
 
 #梓澪の妙妙屋
 DOMAIN,zi0.cc
+
+#TMDB
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-KEYWORD,themoviedb
