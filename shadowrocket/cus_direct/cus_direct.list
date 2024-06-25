@@ -94,6 +94,9 @@ DOMAIN-SUFFIX,linux.do
 
 #stay
 DOMAIN-SUFFIX,easylist.to
+
+#firecore infuse
+DOMAIN-SUFFIX,firecore.com
     
 
 
