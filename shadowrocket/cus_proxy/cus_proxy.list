@@ -106,3 +106,7 @@ DOMAIN,zi0.cc
 #TMDB
 DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-KEYWORD,themoviedb
+
+#字幕
+DOMAIN-KEYWORD,subhd
+DOMAIN-SUFFIX,r3sub.com
