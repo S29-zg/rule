@@ -53,6 +53,7 @@ payload:
   #cc
   - DOMAIN,cc.ccemby.tk    
   - DOMAIN-SUFFIX,carryz.net
+  - DOMAIN,cc.coemn.com
   #porn
   - DOMAIN,pornemby.club
   #polo
@@ -67,3 +68,15 @@ payload:
   - DOMAIN,stream.ntrrr.top
 #江湖
   - DOMAIN,film.reddust.link
+
+#starcat
+  - DOMAIN,flarex.starcat.eu.org
+
+#starcat plex
+  - DOMAIN,copses.starxs.link
+  - DOMAIN,flare.catlinks.co.uk
+  - DOMAIN-KEYWORD,catlinks
+  - DOMAIN,ehsifohesiohgesfhrioe3.puddingcat.de
+  - 
+  - #heisi
+  - DOMAIN-SUFFIX,i109.com

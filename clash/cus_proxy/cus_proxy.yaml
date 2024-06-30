@@ -8,3 +8,8 @@ payload:
   - DOMAIN,ppg.369.cyou
   - DOMAIN,paopaogou.co
   - DOMAIN,paopaogou.cloud
+  #poe
+  - DOMAIN-KEYWORD,poe
+  #TMDB
+  - DOMAIN-SUFFIX,themoviedb.org
+  - DOMAIN-KEYWORD,themoviedb
