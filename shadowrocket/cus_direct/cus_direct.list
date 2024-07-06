@@ -6,6 +6,7 @@ DOMAIN,jz.mcjoker.xyz
 
 #私服
 DOMAIN,test.belugaclothing.life
+DOMAIN,sb.emby.ink
 ################🏳️‍🌈emby######################
 
 #lan
@@ -103,7 +104,14 @@ DOMAIN-SUFFIX,firecore.com
 DOMAIN-SUFFIX,zimuku.org
 DOMAIN-SUFFIX,assrt.net
 DOMAIN-SUFFIX,a4k.net
+DOMAIN-SUFFIX,shooter.cn
+
 
 #奥特
 DOMAIN-SUFFIX,auete.pro
+
+#小说
+DOMAIN,zxcs.info
+DOMAIN-SUFFIX,banshujiang.cn
+DOMAIN,shuxiangjia.cn
 
