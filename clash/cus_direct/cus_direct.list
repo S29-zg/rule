@@ -18,3 +18,5 @@ DOMAIN-SUFFIX,enpass.io
 DOMAIN-SUFFIX,nodeseek.com
 #iMazing
 DOMAIN-SUFFIX,imazingchina.com
+#nvidia
+DOMAIN,nvidia
