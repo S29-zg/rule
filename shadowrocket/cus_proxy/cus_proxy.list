@@ -70,8 +70,7 @@ DOMAIN-KEYWORD,mypikpak
 #Digital ocean
 DOMAIN-SUFFIX,digitalocean.com
 
-#VPS
-IP-CIDR,156.254.115.141/32,no-resolve
+
 
 #spaceship
 DOMAIN-KEYWORD,spaceship
