@@ -112,3 +112,6 @@ DOMAIN-SUFFIX,r3sub.com
 
 #poe
 DOMAIN-KEYWORD,poe
+
+#serv00
+DOMAIN-KEYWORD,serv00
