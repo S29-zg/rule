@@ -115,3 +115,6 @@ DOMAIN-KEYWORD,poe
 
 #serv00
 DOMAIN-KEYWORD,serv00
+
+#小说
+DOMAIN-SUFFIX,369book.cc
