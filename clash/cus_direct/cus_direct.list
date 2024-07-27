@@ -20,3 +20,5 @@ DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,imazingchina.com
 #nvidia
 DOMAIN,nvidia
+#opgg
+DOMAIN-SUFFIX,op.gg
