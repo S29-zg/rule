@@ -119,3 +119,6 @@ DOMAIN-KEYWORD,serv00
 #小说
 DOMAIN-SUFFIX,369book.cc
 DOMAIN-SUFFIX,biquge.tw
+
+#pypi
+DOMAIN-SUFFIX,pypi.org
