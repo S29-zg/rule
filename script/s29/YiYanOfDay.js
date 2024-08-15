@@ -30,6 +30,7 @@ function getYiYan(){
         $notification.post("请求错误","", error);
         return;
       }
+      console.log(data)
   
       // 解析 JSON 数据
       var jsonData = JSON.parse(data);
