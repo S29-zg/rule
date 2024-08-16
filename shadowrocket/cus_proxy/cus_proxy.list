@@ -122,3 +122,6 @@ DOMAIN-SUFFIX,biquge.tw
 
 #pypi
 DOMAIN-SUFFIX,pypi.org
+
+#deepl翻译
+DOMAIN-SUFFIX,deepl.com
