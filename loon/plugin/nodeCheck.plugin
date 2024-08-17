@@ -1,4 +1,4 @@
-#!name = NodeLinkCheck
+#!name = 工具-NodeLinkCheck
 #!desc = 一款支持Surge、QuantumultX、Loon的节点代理链路检测模块
 #!icon=https://raw.githubusercontent.com/S29-zg/Picture/main/icon/node.png
 

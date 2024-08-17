@@ -1,4 +1,4 @@
-#!name = 京东比价
+#!name = 工具-京东比价
 #!desc = 在京东应用内嵌入比价信息，点击商品标题即可查看。仅支持京东的标准模式。
 #!author = zwf234
 #!icon = https://raw.githubusercontent.com/S29-zg/Picture/main/icon/JD.png

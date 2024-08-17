@@ -1,4 +1,4 @@
-#!name = 网易云音乐人
+#!name = 签到-网易云音乐人
 #!desc = 当前版本仅支持云贝: 签到；音乐人: 每日任务、推荐任务(发表主创说、发布动态、回复粉丝私信)；黑胶会员: 会员打卡、每日任务(♥️三首会员歌曲)，完成以上任务后可自动领取任务奖励。
 #!author = leiyiyan
 #!icon = https://raw.githubusercontent.com/S29-zg/Picture/main/icon/wangyiyun.PNG
