@@ -105,6 +105,8 @@ DOMAIN,zi0.cc
 #TMDB
 DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-KEYWORD,themoviedb
+DOMAIN-KEYWORD,tmdb
+DOMAIN-SUFFIX,movieweb.com
 
 #字幕
 DOMAIN-KEYWORD,subhd
