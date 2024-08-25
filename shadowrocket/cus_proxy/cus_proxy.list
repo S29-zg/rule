@@ -127,3 +127,7 @@ DOMAIN-SUFFIX,pypi.org
 
 #deepl翻译
 DOMAIN-SUFFIX,deepl.com
+
+#nebo
+DOMAIN-KEYWORD,nebo
+DOMAIN-SUFFIX,myscript.com
