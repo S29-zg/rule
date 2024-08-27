@@ -131,3 +131,6 @@ DOMAIN-SUFFIX,deepl.com
 #nebo
 DOMAIN-KEYWORD,nebo
 DOMAIN-SUFFIX,myscript.com
+
+#enpass
+DOMAIN-SUFFIX,enpass.io
