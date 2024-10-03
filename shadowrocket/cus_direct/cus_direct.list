@@ -7,6 +7,9 @@ DOMAIN,jz.mcjoker.xyz
 #私服
 DOMAIN,test.belugaclothing.life
 DOMAIN,sb.emby.ink
+
+#pilipili
+IP-CIDR,104.168.128.180/32
 ################🏳️‍🌈emby######################
 
 #lan
