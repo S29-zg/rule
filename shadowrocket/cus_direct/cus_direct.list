@@ -10,6 +10,9 @@ DOMAIN,sb.emby.ink
 
 #pilipili
 IP-CIDR,104.168.128.180/32
+
+#tank
+DOMAIN,a.tiangou.xyz
 ################🏳️‍🌈emby######################
 
 #lan
