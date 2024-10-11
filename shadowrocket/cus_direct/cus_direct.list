@@ -1,4 +1,4 @@
-################🏳️‍🌈emby######################
+################🏳️‍🌈emby#####################
 DOMAIN-SUFFIX,ycxdy.top
 
 #叔服
@@ -7,7 +7,13 @@ DOMAIN,jz.mcjoker.xyz
 #私服
 DOMAIN,test.belugaclothing.life
 DOMAIN,sb.emby.ink
-################🏳️‍🌈emby######################
+
+#pilipili
+IP-CIDR,104.168.128.180/32
+
+#tank
+DOMAIN,a.tiangou.xyz
+################🏳️‍🌈emby#####################
 
 #lan
 DOMAIN-SUFFIX,local
@@ -128,12 +134,12 @@ DOMAIN-SUFFIX,kanshu2.com
 DOMAIN-SUFFIX,uwexs.com
 DOMAIN-SUFFIX,shuwu5.com
 DOMAIN-SUFFIX,80txt.net
-DOMAIN-SUFFIX,69shuba.cx
 DOMAIN-SUFFIX,booklink.me
 DOMAIN-SUFFIX,20sai.com
 DOMAIN-SUFFIX,7zzw.com
 DOMAIN-KEYWORD,tsj
 DOMAIN-SUFFIX,zwduxs.com
+DOMAIN-SUFFIX,qingtian618.site
 
 #影视
 DOMAIN-KEYWORD,cupfox
