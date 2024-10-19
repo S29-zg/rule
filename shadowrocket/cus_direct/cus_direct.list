@@ -9,7 +9,7 @@ DOMAIN,test.belugaclothing.life
 DOMAIN,sb.emby.ink
 
 #pilipili
-IP-CIDR,104.168.128.180/32
+DOMAIN,pilipili.hitagi.me
 
 #tank
 DOMAIN,a.tiangou.xyz
