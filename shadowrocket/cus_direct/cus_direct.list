@@ -157,3 +157,6 @@ DOMAIN-KEYWORD,filen
 
 #Aliyun VPS
 IP-CIDR,47.238.164.212/32
+
+#可莉
+DOMAIN,kelee.one
