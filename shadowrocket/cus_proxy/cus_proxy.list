@@ -47,13 +47,15 @@ DOMAIN-KEYWORD,cloudflareclient
 DOMAIN-SUFFIX,redtraffic.net
 
 #talkatone
+DOMAIN-SUFFIX,inmobi.com
+DOMAIN-SUFFIX,mobilefuse.com
 DOMAIN-SUFFIX,tktn.be
 DOMAIN-SUFFIX,talkatone.com
-DOMAIN-SUFFIX,mobilefuse.com
-IP-CIDR,205.164.56.0/24,no-resolve
-IP-CIDR,69.46.75.0/24,no-resolve
-IP-CIDR,205.164.56.0/24,no-resolve
 IP-CIDR,50.117.27.0/24,no-resolve
+IP-CIDR,63.251.124.0/24,no-resolve
+IP-CIDR,69.46.75.0/24,no-resolve
+IP-CIDR,205.164.56.29/24,no-resolve
+IP-CIDR,216.172.154.0/24,no-resolve
 
 #Groq
 DOMAIN-SUFFIX,groq.com
