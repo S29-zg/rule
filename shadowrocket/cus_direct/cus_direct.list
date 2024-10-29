@@ -9,7 +9,7 @@ DOMAIN,test.belugaclothing.life
 DOMAIN,sb.emby.ink
 
 #pilipili
-IP-CIDR,104.168.128.180/32
+DOMAIN,pilipili.hitagi.me
 
 #tank
 DOMAIN,a.tiangou.xyz
@@ -140,6 +140,12 @@ DOMAIN-SUFFIX,7zzw.com
 DOMAIN-KEYWORD,tsj
 DOMAIN-SUFFIX,zwduxs.com
 DOMAIN-SUFFIX,qingtian618.site
+DOMAIN-SUFFIX,xiaoshuowanben.com
+
+
+#荐音
+DOMAIN-SUFFIX,shengjianapp.top
+DOMAIN-KEYWORD,shengjianapp
 
 #影视
 DOMAIN-KEYWORD,cupfox
@@ -152,3 +158,6 @@ DOMAIN-KEYWORD,filen
 
 #Aliyun VPS
 IP-CIDR,47.238.164.212/32
+
+#可莉
+DOMAIN,kelee.one
