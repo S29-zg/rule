@@ -46,14 +46,6 @@ DOMAIN-KEYWORD,cloudflareclient
 #iptv        
 DOMAIN-SUFFIX,redtraffic.net
 
-#talkatone
-DOMAIN-SUFFIX,tktn.be
-DOMAIN-SUFFIX,talkatone.com
-DOMAIN-SUFFIX,mobilefuse.com
-IP-CIDR,205.164.56.0/24,no-resolve
-IP-CIDR,69.46.75.0/24,no-resolve
-IP-CIDR,205.164.56.0/24,no-resolve
-IP-CIDR,50.117.27.0/24,no-resolve
 
 #Groq
 DOMAIN-SUFFIX,groq.com
@@ -146,3 +138,4 @@ DOMAIN-SUFFIX,122777.xyz
 DOMAIN-SUFFIX,aca.best
 DOMAIN-SUFFIX,12345.al
 DOMAIN-SUFFIX,acaisbest.shop
+DOMAIN-SUFFIX,acaisbest.com
