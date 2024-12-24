@@ -22,7 +22,7 @@ DOMAIN-SUFFIX,grammarly.com
 DOMAIN-SUFFIX,ipinfo.io
 
 #Stream
-DOMAIN-KEYWORD,stream-link
+#DOMAIN-KEYWORD,stream-link
 
 #iKun
 DOMAIN-SUFFIX,ikuuu.pw
