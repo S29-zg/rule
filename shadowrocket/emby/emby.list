@@ -1,4 +1,3 @@
-#emby服务器分流_用于shadowrocket
 #misakaf服
 DOMAIN-SUFFIX,misakaf.org 
 IP-CIDR,102.223.180.108/32
