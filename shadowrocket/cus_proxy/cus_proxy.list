@@ -145,3 +145,6 @@ DOMAIN-SUFFIX,nodeseek.com
 
 #油猴
 DOMAIN-SUFFIX,greasyfork.org
+
+#other
+DOMAIN-SUFFIX,cacapex.com
