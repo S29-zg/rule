@@ -15,16 +15,6 @@ DOMAIN,pilipili.hitagi.me
 DOMAIN,a.tiangou.xyz
 ################🏳️‍🌈emby#####################
 
-#lan
-DOMAIN-SUFFIX,local
-IP-CIDR,192.168.0.0/16
-IP-CIDR,10.0.0.0/8
-IP-CIDR,172.16.0.0/12
-IP-CIDR,127.0.0.0/8
-IP-CIDR,100.64.0.0/10
-IP-CIDR,224.0.0.0/4
-IP-CIDR6,fe80::/10
-
 
 
 #最右分流
@@ -95,6 +85,11 @@ DOMAIN-SUFFIX,easylist.to
 #firecore infuse
 DOMAIN-SUFFIX,firecore.com
 
+#字幕
+DOMAIN-SUFFIX,zimuku.org
+DOMAIN-SUFFIX,assrt.net
+DOMAIN-SUFFIX,a4k.net
+DOMAIN-SUFFIX,shooter.cn
 
 
 #奥特
