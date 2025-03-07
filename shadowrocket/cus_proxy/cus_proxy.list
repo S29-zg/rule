@@ -154,3 +154,6 @@ DOMAIN-SUFFIX,shooter.cn
 
 #other
 DOMAIN-SUFFIX,cacapex.com
+
+#perplexity
+DOMAIN-KEYWORD,perplexity
