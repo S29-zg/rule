@@ -22,3 +22,5 @@ DOMAIN-SUFFIX,imazingchina.com
 DOMAIN,nvidia
 #opgg
 DOMAIN-SUFFIX,op.gg
+#infinicloud
+DOMAIN-KEYWORD,infini-cloud
