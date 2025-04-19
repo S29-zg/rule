@@ -143,5 +143,17 @@ DOMAIN-SUFFIX,acaisbest.com
 #nodeseek
 DOMAIN-SUFFIX,nodeseek.com
 
-#linux.do
-DOMAIN-SUFFIX,linux.do
+#油猴
+DOMAIN-SUFFIX,greasyfork.org
+
+#字幕
+DOMAIN-SUFFIX,zimuku.org
+DOMAIN-SUFFIX,assrt.net
+DOMAIN-SUFFIX,a4k.net
+DOMAIN-SUFFIX,shooter.cn
+
+#other
+DOMAIN-SUFFIX,cacapex.com
+
+#reflix
+DOMAIN-KEYWORD,reflix
