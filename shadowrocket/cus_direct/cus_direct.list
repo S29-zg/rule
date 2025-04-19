@@ -151,9 +151,6 @@ DOMAIN-SUFFIX,4ksj.com
 
 #clash verge
 DOMAIN,mirror.ghproxy.com
-<<<<<<< HEAD
 
 #infinicloud
 DOMAIN-KEYWORD,infini-cloud
-=======
->>>>>>> 2c29369f7061fb90ce6bf2211dacf42182b347db
