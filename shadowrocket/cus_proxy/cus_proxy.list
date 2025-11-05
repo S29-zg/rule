@@ -166,3 +166,6 @@ DOMAIN-SUFFIX,firecore.com
 
 #yang
 DOMAIN-SUFFIX,iill.top
+
+# vercel
+DOMAIN-SUFFIX,vercel.app
