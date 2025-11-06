@@ -158,3 +158,6 @@ DOMAIN-SUFFIX,vvebo.vip
 DOMAIN-KEYWORD,macked
 
 DOMAIN-KEYWORD,fengshows
+
+# weather
+DOMAIN-SUFFIX,weather.bjango.com
