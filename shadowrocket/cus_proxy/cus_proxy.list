@@ -169,3 +169,6 @@ DOMAIN-SUFFIX,iill.top
 
 # vercel
 DOMAIN-SUFFIX,vercel.app
+
+#linux do
+DOMAIN-SUFFIX,linux.do
