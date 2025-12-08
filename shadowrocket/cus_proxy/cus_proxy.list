@@ -144,6 +144,9 @@ DOMAIN-SUFFIX,nodeseek.com
 #油猴
 DOMAIN-SUFFIX,greasyfork.org
 
+#Linuxdo
+DOMAIN-SUFFIX,linux.do
+
 #other
 DOMAIN-SUFFIX,cacapex.com
 DOMAIN-KEYWORD,dnshe
