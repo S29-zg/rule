@@ -147,6 +147,9 @@ DOMAIN-SUFFIX,greasyfork.org
 #Linuxdo
 DOMAIN-SUFFIX,linux.do
 
+#appraven
+DOMAIN-SUFFIX,appraven.net
+
 #other
 DOMAIN-SUFFIX,cacapex.com
 DOMAIN-KEYWORD,dnshe
