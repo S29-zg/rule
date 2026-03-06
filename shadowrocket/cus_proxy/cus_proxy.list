@@ -159,9 +159,6 @@ DOMAIN-SUFFIX,assrt.net
 # 书源
 DOMAIN,www.yckceo.com
 
-#tidb
-DOMAIN-KEYWORD,theintrodb
-
 #other
 DOMAIN-SUFFIX,cacapex.com
 DOMAIN-KEYWORD,dnshe
