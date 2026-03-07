@@ -1,8 +1,0 @@
-#!name = 工具-ChatGPT检测
-#!desc = ChatGPT检测
-#!author = @mcdasheng
-#!icon = https://raw.githubusercontent.com/S29-zg/Picture/main/icon/chatgpy.PNG
-#!input = ipinfo_token
-
-[Script]
-generic script-path = https://raw.githubusercontent.com/S29-zg/rule/main/script/ChatGPT/ChatGPT.js,tag = ChatGPT检测
